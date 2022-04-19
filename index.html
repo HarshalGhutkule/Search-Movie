@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=icon type=image/png href=https://s.imgur.com/images/favicon-96x96.png sizes=96x96>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <title>Imgur:The magic of the Internet</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <div class="navbarLogo">
+            <a href="index.html">
+                <img src="https://s.imgur.com/images/favicon-32x32.png" alt="">
+            </a>
+        </div>
+        <div class="mostViral">
+            <div class="dropDownTitle">
+                <span class="title">MOST WATCHED </span>
+                <span class="material-icons md-24">arrow_drop_down</span>
+            </div>
+            <div class="hiddenDropdown">
+                <div class="mostV">MOST WATCHED </div>
+                <div class="userS">USER SUBMITTED</div>
+                <div class="highestS">HIGHEST IMDB</div>
+            </div>
+        </div>
+        <div class="searchBar">
+            <input type="text" placeholder="Movies, #tags, @users oh my!" oninput="debounce()" class="searchMovies">
+            <div class="searchDropdown">
+                <!-- data to append -->
+            </div>
+            <button>
+                <img src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg" alt="">
+            </button>
+        </div>
+        <div class="newest">
+            <div class="dropDownTitle dropDownTitle2">
+                <span id="newestTitle">POPULAR</span>
+                <span class="material-icons md-24">arrow_drop_down</span>
+            </div>
+            <div class="hiddenDropdown newesthiddenDropdown">
+                <div class="pop">POPULAR</div>
+                <div class="news">NEWEST</div>
+                <div class="best">BEST</div>
+                <div class="ran">RANDOM</div>
+            </div>
+        </div>
+        <div class="newChange">
+            <span class="material-icons">filter_list</span>
+            <span class="material-icons">slow_motion_video</span>
+            <span class="material-icons">grid_view</span>
+        </div>
+    </div>
+
+    <!-- container -->
+    <div class="container">
+        <!-- data to append -->
+    </div>
+    <div id="displayMovie"></div>
+</body>
+</html>
+<script src="./index.js"></script>
