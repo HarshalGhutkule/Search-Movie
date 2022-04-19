@@ -6,6 +6,8 @@ var movieName = "avengers"
 
      
     document.querySelector(".mostV").addEventListener("click", (e)=>{
+        document.querySelector(".container").style.display = "flex";
+        document.getElementById("displayMovie").style.display = "none";
         movieName = "the lord of the rings";
         document.querySelector(".container").innerHTML = null;
         count = 0;
@@ -18,6 +20,8 @@ var movieName = "avengers"
     })
 
     document.querySelector(".userS").addEventListener("click", (e)=>{
+        document.querySelector(".container").style.display = "flex";
+        document.getElementById("displayMovie").style.display = "none";
         movieName = "The Godfather";
         document.querySelector(".container").innerHTML = null;
         count = 0;
@@ -29,6 +33,8 @@ var movieName = "avengers"
     })
 
     document.querySelector(".highestS").addEventListener("click", (e)=>{
+        document.querySelector(".container").style.display = "flex";
+        document.getElementById("displayMovie").style.display = "none";
         movieName = "inception";
         document.querySelector(".container").innerHTML = null;
         count = 0;
@@ -45,6 +51,8 @@ var movieName = "avengers"
     })
 
     document.querySelector(".pop").addEventListener("click", (e)=>{
+        document.querySelector(".container").style.display = "flex";
+        document.getElementById("displayMovie").style.display = "none";
         movieName = "the dark knight";
         document.querySelector(".container").innerHTML = null;
         count = 0;
@@ -56,6 +64,8 @@ var movieName = "avengers"
     })
 
     document.querySelector(".news").addEventListener("click", (e)=>{
+        document.querySelector(".container").style.display = "flex";
+        document.getElementById("displayMovie").style.display = "none";
         movieName = "spider-man";
         document.querySelector(".container").innerHTML = null;
         count = 0;
@@ -67,6 +77,8 @@ var movieName = "avengers"
     })
 
     document.querySelector(".best").addEventListener("click", (e)=>{
+        document.querySelector(".container").style.display = "flex";
+        document.getElementById("displayMovie").style.display = "none";
         movieName = "superman";
         document.querySelector(".container").innerHTML = null;
         count = 0;
@@ -80,6 +92,8 @@ var movieName = "avengers"
     let arr = ["james bond","rocky","star wars","joker","friends","thor","hulk"];
     let num = 0;
     document.querySelector(".ran").addEventListener("click", (e)=>{
+        document.querySelector(".container").style.display = "flex";
+        document.getElementById("displayMovie").style.display = "none";
         if(num === 6) num = 0;
         movieName = arr[num];
         document.querySelector(".container").innerHTML = null;
